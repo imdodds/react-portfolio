@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-      <div className='max-w-5xl w-11/12 mx-auto'>
+      <div className='bg-white text-stone-900 min-h-screen font-inter max-w-5xl w-11/12 mx-auto'>
         <About></About>
         <Portfolio></Portfolio>
         <Timeline></Timeline>
