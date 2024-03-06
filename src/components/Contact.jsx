@@ -32,7 +32,7 @@ const Contact = () => {
           />
           <button
             type="button"
-            className=' inline-block text-center px-8 py-3 w-max text-base font-medium rounded-md text-white bg-stone-700 drop-shadow-md'
+            className=' inline-block text-center px-8 py-3 w-max text-base font-medium rounded-md text-white bg-stone-500 drop-shadow-md'
           >
             Get in touch
           </button>
