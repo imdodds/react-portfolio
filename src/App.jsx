@@ -9,13 +9,13 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className='App'>
-      <About></About>
-      <Portfolio></Portfolio>
-      <Timeline></Timeline>
-      <Contact></Contact>
-      <Footer></Footer>
-    </div>
+      <div className='max-w-5xl w-11/12 mx-auto'>
+        <About></About>
+        <Portfolio></Portfolio>
+        <Timeline></Timeline>
+        <Contact></Contact>
+        <Footer></Footer>
+      </div>
   )
 }
 
