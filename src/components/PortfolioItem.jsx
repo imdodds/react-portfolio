@@ -3,11 +3,13 @@ import React from 'react'
 const PortfolioItem = ({ title, imgUrl, stack, description, link }) => {
   return (
     <div className='border-2 border-stone-300 rounded-md overflow-hidden'>
-      <img
-        src={imgUrl}
-        alt={title}
-        className='w-full h-36 md:h-48 object-cover cursor-pointer'
-      />
+      <a href={link}>
+        <img
+          src={imgUrl}
+          alt={title}
+          className='w-full h-36 md:h-48 object-cover cursor-pointer'
+        />
+      </a>
       <div className='w-full p-4'>
         <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold'>
           {title}
